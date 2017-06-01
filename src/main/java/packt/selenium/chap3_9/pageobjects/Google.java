@@ -20,7 +20,7 @@ public class Google {
 //<<<<<<< HEAD
 //      if (!driver.getTitle().equals("Google-Selenium Testing Tools")){
 //=======
-        if (!driver.getTitle().equals("Google")){
+//        if (!driver.getTitle().equals("Google")){
 //>>>>>>> 23fbcc79ca24fef7cd25e16bc5adb63633aa13a9
             throw new WrongPageException("Incorrect page for Google Home page");
         }
